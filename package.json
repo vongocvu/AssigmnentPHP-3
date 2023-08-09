@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@alpinejs/focus": "^3.10.5",
+        "@popperjs/core": "^2.11.6",
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.0",
+        "alpinejs": "^3.0.6",
+        "autoprefixer": "^10.4.7",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.5",
+        "postcss": "^8.4.14",
+        "sass": "^1.56.1",
+        "tailwindcss": "^3.1.0",
+        "vite": "^4.0.0"
+    },
+    "name": "Assignment-PHP3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@ckeditor/ckeditor5-alignment": "^39.0.0",
+        "@ckeditor/ckeditor5-build-classic": "^39.0.0",
+        "@ckeditor/ckeditor5-image": "^39.0.0",
+        "font-awesome": "^4.7.0"
+    }
+}

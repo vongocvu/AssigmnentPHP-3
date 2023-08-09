@@ -1,0 +1,31 @@
+.active_sidebar_admin {
+  opacity: 1;
+  background-color: #2e2d37;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.active_sidebar_admin .icon_sidebar {
+  background-color: rgb(230, 54, 54) !important;
+}
+
+.item_dashboard_admin:hover img {
+  transform: scale(1);
+}
+
+.drop-menu-admin i {
+  transform: rotate(0deg) !important;
+}
+
+.active_sidebar_admin .drop-menu-admin i {
+  transform: rotate(90deg) !important;
+}
+
+.add_champion_circle:hover i {
+  transform: scale(2) !important;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 82.2vh;
+}

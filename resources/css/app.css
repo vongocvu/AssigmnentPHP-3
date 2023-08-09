@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input,
+select,
+button,
+textarea {
+  border: none;
+  outline: none !important;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  --tw-ring-color: none !important;
+  --tw-ring-shadow: none !important;
+}
+
+img:hover,
+video:hover {
+  cursor: pointer;
+}
+
+/* width */
+.custom-scroll::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custom-scroll::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+p a,
+.image a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
